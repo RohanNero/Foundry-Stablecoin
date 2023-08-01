@@ -11,11 +11,11 @@ contract CounterTest is Test {
         stable = new Stable();
     }
 
-    function testName() public {
+    function test_Name() public {
         assertEq(stable.name(), "Stable");
     }
 
-    function testSymbol() public {
+    function test_Symbol() public {
         assertEq(stable.symbol(), "STBL");
     }
 
