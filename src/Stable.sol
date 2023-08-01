@@ -7,9 +7,6 @@ contract Stable is ERC20{
 
     string private constant NAME = "Stable";
     string private constant SYMBOL = "STBL";
-    
-    constructor() ERC20() {
-    }
 
     function name() public pure override returns(string memory) {
         return NAME;
